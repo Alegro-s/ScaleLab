@@ -1,0 +1,98 @@
+name: masshtablab
+
+services:
+  postgres:
+    image: ${REGISTRY:-}postgres:16-alpine
+    environment:
+      POSTGRES_DB: masshtablab
+      POSTGRES_USER: masshtablab
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-masshtablab}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/postgres:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U masshtablab -d masshtablab"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks: [internal]
+    restart: unless-stopped
+
+  mongo:
+    image: ${REGISTRY:-}mongo:7
+    volumes:
+      - mongodata:/data/db
+      - ./db/mongo/init.js:/docker-entrypoint-initdb.d/init.js:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    networks: [internal]
+    restart: unless-stopped
+
+  core:
+    build:
+      context: .
+      dockerfile: services/core/Dockerfile
+      args:
+        REGISTRY: ${REGISTRY:-}
+    environment:
+      DATA_DIR: /data
+    volumes:
+      - data:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u;u.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    networks: [internal]
+    restart: unless-stopped
+
+  gateway:
+    build:
+      context: .
+      dockerfile: services/gateway/Dockerfile
+      args:
+        REGISTRY: ${REGISTRY:-}
+    environment:
+      DATABASE_URL: postgres://masshtablab:${POSTGRES_PASSWORD:-masshtablab}@postgres:5432/masshtablab
+      MONGO_URL: mongodb://mongo:27017
+      MONGO_DB: masshtablab
+      CORE_URL: http://core:8000
+      DATA_DIR: /data
+      JWT_SECRET: ${JWT_SECRET:?задайте JWT_SECRET в .env}
+      COOKIE_SECURE: ${COOKIE_SECURE:-0}
+      MAX_UPLOAD_MB: ${MAX_UPLOAD_MB:-50}
+      MOBILE_KEY: ${MOBILE_KEY:-}
+    volumes:
+      - data:/data
+    depends_on:
+      postgres: { condition: service_healthy }
+      mongo: { condition: service_healthy }
+      core: { condition: service_healthy }
+    networks: [internal]
+    restart: unless-stopped
+
+  web:
+    build:
+      context: .
+      dockerfile: web/Dockerfile
+      args:
+        REGISTRY: ${REGISTRY:-}
+    ports:
+      - "${WEB_PORT:-47310}:80"
+    depends_on:
+      gateway: { condition: service_healthy }
+    networks: [internal, public]
+    restart: unless-stopped
+
+networks:
+  internal:
+    internal: true
+  public: {}
+
+volumes:
+  pgdata:
+  mongodata:
+  data:

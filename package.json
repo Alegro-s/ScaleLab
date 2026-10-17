@@ -1,0 +1,11 @@
+{
+  "name": "masshtab-lab",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["shared", "services/gateway", "web"],
+  "scripts": {
+    "build": "npm run build -w services/gateway && npm run build -w web",
+    "test": "npm test -w services/gateway",
+    "typecheck": "npm run typecheck -w services/gateway && npm run typecheck -w web"
+  }
+}

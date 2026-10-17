@@ -1,0 +1,8 @@
+fastapi==0.115.6
+uvicorn==0.34.0
+numpy
+pillow
+reportlab
+pydantic
+python-multipart
+colorama

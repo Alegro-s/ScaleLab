@@ -1,0 +1,109 @@
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m666[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m8080[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m08:32:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Report.tsx[22m
+[2m08:32:04[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/glass/Report.tsx[22m Could not Fast Refresh ("SECTION_LABELS" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m08:32:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Session.tsx[22m
+[2m08:32:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/glass.css[22m
+[2m09:30:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/glass/Session.tsx, /src/glass/Journal.tsx, /src/glass/Shell.tsx, /src/classic/Pages.tsx, /src/glass/Upload.tsx, /src/classic/Window.tsx, /src/glass/Compare.tsx, /src/glass/Table.tsx, /src/glass/Report.tsx, /src/glass/Calibration.tsx, /src/glass/Measure.tsx, /src/glass/Home.tsx[22m
+[2m09:30:06[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/glass/Shell.tsx[22m Could not Fast Refresh ("initials" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m09:30:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/glass/Session.tsx, /src/glass/Settings.tsx, /src/glass/Home.tsx, /src/glass/Journal.tsx, /src/glass/Library.tsx[22m
+[2m09:30:06[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/glass/Compare.tsx[22m Could not Fast Refresh ("mainArea" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m09:30:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Session.tsx[22m
+[2m09:30:06[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/glass/Table.tsx[22m Could not Fast Refresh ("toCsv" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m09:30:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Session.tsx[22m
+[2m09:30:06[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/glass/Report.tsx[22m Could not Fast Refresh ("SECTION_LABELS" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m09:30:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Session.tsx[22m
+[2m09:30:06[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/glass/Calibration.tsx[22m Could not Fast Refresh ("sides" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m09:30:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Session.tsx, /src/glass/Compare.tsx, /src/glass/Measure.tsx[22m
+[2m09:30:06[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/glass/Home.tsx[22m Could not Fast Refresh ("STATUS_RU" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m09:30:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/glass/Library.tsx[22m
+[2m09:30:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/classic/Window.tsx[22m
+[2m09:30:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/classic/Pages.tsx[22m
+[2m09:30:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/ui/Stage.tsx[22m
+[2m09:30:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/ui/atoms.tsx[22m
+[2m09:30:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m09:30:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/state.tsx, /src/glass/Settings.tsx, /src/glass/Home.tsx, /src/glass/Journal.tsx, /src/glass/Shell.tsx, /src/glass/Library.tsx, /src/classic/Pages.tsx, /src/glass/Upload.tsx, /src/classic/Window.tsx, /src/glass/Compare.tsx, /src/glass/Report.tsx, /src/glass/Calibration.tsx, /src/glass/Measure.tsx[22m
+[2m09:30:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m09:30:07[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/ui/Stage.tsx[22m Could not Fast Refresh ("useStage" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m09:30:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/classic/Pages.tsx, /src/glass/Compare.tsx, /src/glass/Calibration.tsx, /src/glass/Measure.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/glass/Session.tsx, /src/glass/Journal.tsx, /src/glass/Shell.tsx, /src/classic/Pages.tsx, /src/glass/Upload.tsx, /src/classic/Window.tsx, /src/glass/Compare.tsx, /src/glass/Table.tsx, /src/glass/Report.tsx, /src/glass/Calibration.tsx, /src/glass/Measure.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/base.css[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Home.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/classic.css[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/uicons.css[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/glass.css[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/mobile.css[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Report.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Upload.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Measure.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Login.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Journal.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Library.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Home.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/state.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Compare.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Calibration.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Settings.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Session.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Table.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Shell.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Home.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/classic/Pages.tsx, /src/glass/Compare.tsx, /src/glass/Report.tsx, /src/glass/Calibration.tsx, /src/glass/Measure.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/state.tsx, /src/glass/Home.tsx, /src/glass/Journal.tsx, /src/glass/Library.tsx, /src/classic/Pages.tsx, /src/glass/Compare.tsx, /src/glass/Table.tsx, /src/glass/Report.tsx, /src/glass/Calibration.tsx, /src/glass/Measure.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Library.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/state.tsx[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m09:30:08[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m09:30:08[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:\Users\igor-\OneDrive\Desktop\Obninsk\Project\web\tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m09:30:09[22m [36m[1m[vite][22m[39m server restarted.
+[2m09:37:31[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m09:37:31[22m [36m[1m[vite][22m[39m server restarted.
+[2m11:38:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/glass/Session.tsx, /src/glass/Shell.tsx, /src/glass/Journal.tsx, /src/classic/Pages.tsx, /src/glass/Measure.tsx, /src/glass/Upload.tsx, /src/classic/Window.tsx, /src/glass/Compare.tsx, /src/glass/Table.tsx, /src/glass/Calibration.tsx, /src/glass/Report.tsx, /src/glass/Home.tsx[22m
+[2m11:39:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/classic/Window.tsx[22m
+[2m11:39:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/classic/Pages.tsx[22m
+[2m11:39:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/ui/Stage.tsx[22m
+[2m11:39:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/ui/atoms.tsx[22m
+[2m11:39:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m11:39:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Settings.tsx, /src/App.tsx, /src/state.tsx, /src/glass/Shell.tsx, /src/glass/Home.tsx, /src/glass/Journal.tsx, /src/glass/Library.tsx, /src/classic/Pages.tsx, /src/glass/Measure.tsx, /src/glass/Upload.tsx, /src/classic/Window.tsx, /src/glass/Compare.tsx, /src/glass/Calibration.tsx, /src/glass/Report.tsx[22m
+[2m11:39:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/glass/Session.tsx, /src/glass/Shell.tsx, /src/glass/Journal.tsx, /src/classic/Pages.tsx, /src/glass/Measure.tsx, /src/glass/Upload.tsx, /src/classic/Window.tsx, /src/glass/Compare.tsx, /src/glass/Table.tsx, /src/glass/Calibration.tsx, /src/glass/Report.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/base.css[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/classic.css[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/uicons.css[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/glass.css[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Home.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/mobile.css[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Report.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Upload.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Measure.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Login.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Journal.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Compare.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Library.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Calibration.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Settings.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Session.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Table.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Shell.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Home.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/classic/Pages.tsx, /src/glass/Measure.tsx, /src/glass/Compare.tsx, /src/glass/Calibration.tsx, /src/glass/Report.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/state.tsx, /src/glass/Home.tsx, /src/glass/Journal.tsx, /src/glass/Library.tsx, /src/classic/Pages.tsx, /src/glass/Measure.tsx, /src/glass/Compare.tsx, /src/glass/Table.tsx, /src/glass/Calibration.tsx, /src/glass/Report.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/glass/Library.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/state.tsx[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m11:39:02[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+Re-optimizing dependencies because lockfile has changed
+[2m11:39:03[22m [36m[1m[vite][22m[39m server restarted.
+Error: The following dependencies are imported but could not be resolved:
+
+  [36m@masshtablab/shared[39m [37m[2m(imported by C:/Users/igor-/OneDrive/Desktop/Obninsk/Project/web/src/classic/Window.tsx)[22m[39m
+
+Are they installed?
+    at file:///C:/Users/igor-/OneDrive/Desktop/Obninsk/Project/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:50669:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async file:///C:/Users/igor-/OneDrive/Desktop/Obninsk/Project/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:50174:26
